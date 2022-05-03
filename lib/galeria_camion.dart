@@ -21,7 +21,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Central Camionera"),
+          title: Text("Central Camionera v2"),
         ),
         body: GridView.custom(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
